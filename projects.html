@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tatum Stignani</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="manifest" href="site.webmanifest">
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+			<!-- Header -->
+			<header id="header">
+				<a class="logo">Projects</a>
+			</header>
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li>
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="education.html">Education</a>
+					</li>
+					<li>
+						<a href="work.html">Work History</a>
+					</li>
+					<li class="active">
+						<a href="projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="courses.html">Course History</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Main -->
+			<div id="main">
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<span class="date" id="featured-date"></span>
+						<h2 style="text-align:center;">
+							<span>Real World <br />Projects </span>
+						</h2>
+						<p>During my time at U.A.B., in the workforce, and through personal use, I have developed numerous <br> tools that can be practically deployed in everyday life. </p>
+					</header>
+					<div class="image main">
+						<img src="images/project.jpg" alt="Screenshot of a project" />
+					</div>
+					<div style="text-align: left; max-width: 800px; margin: 0 auto;">
+						<ul>
+							<li>
+								<strong>Agricultural drone</strong> – Aerial drone used to monitor crop health and ensure farmland security using sensors and imaging.
+							</li>
+							<li>
+								<strong>Facial recognition program</strong> – A security system that grants access only to authorized users using face-scanning technology.
+							</li>
+							<li>
+								<strong>BCBSAL App Dev SharePoint Page</strong> – Internal tool serving as a sitemap, tool finder, information directory, and employee directory.
+							</li>
+							<li>
+								<strong>Website deployments</strong> – Multiple personal, academic, and professional websites deployed using modern web stacks.
+							</li>
+							<li>
+								<strong>Quicksort</strong> – An efficient, divide-and-conquer sorting algorithm commonly used in performance-critical applications.
+							</li>
+							<li>
+								<strong>Merge sort</strong> – A stable, recursive sorting algorithm with guaranteed O(n log n) performance.
+							</li>
+							<li>
+								<strong>Timsort</strong> – A hybrid sorting algorithm (used in Python) combining merge sort and insertion sort for optimized performance.
+							</li>
+							<li>
+								<strong>Bucket sort</strong> – A distribution-based sorting technique useful for uniformly distributed input.
+							</li>
+							<li>
+								<strong>Shell sort</strong> – An in-place comparison sort improving on insertion sort by comparing distant elements first.
+							</li>
+							<li>
+								<strong>Radix sort</strong> – A non-comparative integer sorting algorithm sorting data with integer keys by individual digits.
+							</li>
+							<li>
+								<strong>Comb sort</strong> – An improvement on bubble sort that eliminates turtles (small values near the end) more efficiently.
+							</li>
+							<li>
+								<strong>Insertion sort</strong> – A sorting algorithm that builds the sorted list one element at a time.
+							</li>
+							<li>
+								<strong>Selection sort</strong> – A comparison-based algorithm that repeatedly finds the minimum element.
+							</li>
+							<li>
+								<strong>Bubble sort</strong> – A simple but inefficient sorting algorithm, often used for educational purposes.
+							</li>
+							<li>
+								<strong>Depth-first search</strong> – Graph traversal algorithm that explores as far as possible before backtracking.
+							</li>
+							<li>
+								<strong>Breadth-first search</strong> – Graph traversal that explores all neighbors level by level, useful for shortest path algorithms.
+							</li>
+							<li>
+								<strong>Binary search</strong> – A fast search algorithm for sorted arrays, cutting search space in half with each step.
+							</li>
+							<li>
+								<strong>Linear search</strong> – A method for finding an element within a list by sequentially checking each element of the list until a match is found or the whole list has been searched.
+							</li>
+						</ul>
+					</div>
+					<hr class="major" />
+					<p class="align-center">I really enjoy building and modifying desktops in my spare time as well.</p>
+				</article>
+			</div>
+			<!-- Footer -->
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul>
+					<li>Stignani</li>
+					<li>
+						<a href="TatumStignaniResume.pdf" target="_blank">résumé</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Scripts -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var el = document.getElementById('featured-date');
+				if (!el) return;
+				var now = new Date();
+				var options = {
+					year: 'numeric',
+					month: 'long',
+					day: 'numeric'
+				};
+				el.textContent = now.toLocaleDateString(undefined, options);
+			});
+		</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tatum Stignani</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="manifest" href="site.webmanifest">
+	</head>
+	<body class="is-preload">
+		<div id="wrapper" class="fade-in">
+			<header id="header">
+				<a class="logo">Work History</a>
+			</header>
+			<nav id="nav">
+				<ul class="links">
+					<li>
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="education.html">Education</a>
+					</li>
+					<li class="active">
+						<a href="work.html">Work History</a>
+					</li>
+					<li>
+						<a href="projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="courses.html">Course History</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="main">
+				<article class="post featured">
+					<header class="major">
+						<span class="date" id="featured-date"></span>
+						<h2 style="text-align:center;">
+							<span>Employment <br />History </span>
+						</h2>
+						<p>I have experience in several roles, ranging from hands-on technical work to customer support. <br>Feel free to ask me about my time at these companies... </p>
+						<section class="work-entries">
+							<hr class="major" />
+							<!-- Blue Cross and Blue Shield of Alabama -->
+							<div class="work-entry">
+								<div class="work-content">
+									<h3>Blue Cross and Blue Shield of Alabama</h3>
+									<strong>Application Development Intern</strong>
+									<div class="meta">Birmingham, AL | May 2025 – July 2025</div>
+									<p>Performed both manual and automated testing of internal and external web and desktop applications. Wrote detailed test cases and executed regression suites to validate bug fixes and new features. Collaborated with developers to triage defects, verify fixes, and improve release quality.</p>
+									<p>Developed scripts and lightweight automation utilities to support future testing workflows, increase repeatability, and expand test coverage across critical user journeys. Leveraged version control to maintain test artifacts and documented test plans for the team.</p>
+									<p>The biggest project I was brought on to was with all of the Application Development Interns including people from backgrounds such as engineering, data science, cybersecurity, and information technology. The project consisted of creating an internal tool from scratch, acting as a home page full of resources for everyone in the Application Development Department or those interested in learning more about it.</p>
+								</div>
+								<div class="work-image">
+									<img src="images/bcbsal.png" alt="Blue Cross and Blue Shield of Alabama logo" />
+								</div>
+							</div>
+							<hr class="major" />
+							<!-- Epptech -->
+							<div class="work-entry">
+								<div class="work-content">
+									<h3>Epptech</h3>
+									<strong>Technician</strong>
+									<div class="meta">Pelham, AL | April 2024 – September 2024</div>
+									<p>Provided service desk support including hardware provisioning, new device setup, and end-user onboarding. Managed email migrations and user account configurations while maintaining high customer satisfaction.</p>
+									<p>Installed and configured essential software such as VPN clients, endpoint security (antivirus) solutions, and business productivity tools. Assisted in troubleshooting connectivity and authentication issues.</p>
+									<p>Supported migrations from Exchange-based environments to Microsoft 365 platforms, coordinating mailbox moves, DNS adjustments, and post-migration verification tasks to ensure continuity.</p>
+								</div>
+								<div class="work-image">
+									<img src="images/epptech.png" alt="Epptech logo" />
+								</div>
+							</div>
+							<hr class="major" />
+							<!-- Evolv IT -->
+							<div class="work-entry">
+								<div class="work-content">
+									<h3>Evolv IT</h3>
+									<strong>Hardware Technician</strong>
+									<div class="meta">Birmingham, AL | August 2022 – June 2023</div>
+									<p>Configured and decommissioned hardware for client systems, following inventory and asset management procedures. Performed OS and application installations as needed for deployment.</p>
+									<p>Refurbished and recycled used hardware, prepared systems for redeployment or secure disposal, and verified hardware functionality through testing and diagnostics.</p>
+									<p>Logged work in the service desk system to track device storage, repairs, and inventory status; coordinated with team members to prioritize tasks and maintain turnaround times.</p>
+								</div>
+								<div class="work-image">
+									<img src="images/brandon.jpg" alt="outdated logo" />
+								</div>
+							</div>
+							<hr class="major" />
+						</section>
+					</header>
+					<p class="align-center">My employment history goes back further than this, including jobs that lasted years, but they were mostly in manual labor. What is showcased here represents the skills I want to focus on going forward.</p>
+				</article>
+			</div>
+			<!-- Footer -->
+			<div id="copyright">
+				<ul>
+					<li>Stignani</li>
+					<li>
+						<a href="TatumStignaniResume.pdf" target="_blank">résumé</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Scripts -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var el = document.getElementById('featured-date');
+				if (!el) return;
+				var now = new Date();
+				var options = {
+					year: 'numeric',
+					month: 'long',
+					day: 'numeric'
+				};
+				el.textContent = now.toLocaleDateString(undefined, options);
+			});
+		</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

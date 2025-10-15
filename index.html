@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tatum Stignani</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" />
+		</noscript>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="manifest" href="site.webmanifest">
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+			<!-- Intro -->
+			<div id="intro">
+				<h1>Tatum Stignani</h1>
+				<p>Here, you can learn about me in-depth. For a quick overview, click <a target="_blank" href="TatumStignaniResume.pdf" style="color: rgb(135, 206, 235); text-decoration: underline;">this</a> to view my résumé. </p>
+				<ul class="actions">
+					<li>
+						<a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Header -->
+			<header id="header">
+				<a class="logo">Hello</a>
+			</header>
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active">
+						<a href="index.html">About</a>
+					</li>
+					<li>
+						<a href="education.html">Education</a>
+					</li>
+					<li>
+						<a href="work.html">Work History</a>
+					</li>
+					<li>
+						<a href="projects.html">Projects</a>
+					</li>
+					<li>
+						<a href="courses.html">Course History</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Main -->
+			<div id="main">
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<span class="date" id="featured-date"></span>
+						<h2 style="text-align:center;">
+							<span>See <br />what I do </span>
+						</h2>
+						<p>I study Computer Science at The University of Alabama at Birmingham <br /> and hope to put my skills back into the community I was brought up in. <br /> Let me know if you see anything you like... </p>
+					</header>
+					<div class="image main">
+						<img src="images/vulcan.jpg" alt="Statue of Vulcan in Birmingham, Alabama" />
+						<p>Vulcan, as seen above, is the largest and heaviest cast iron statue in the world, standing 56 feet tall and weighing in at over 100,000 pounds. Made entirely of cast iron, designed by Italian sculptor Giuseppe Moretti, the statue was created for the 1904 Louisiana Purchase Exposition in St. Louis, Missouri, to symbolize Birmingham's iron and steel industry.</p>
+					</div>
+				</article>
+				<!-- Posts -->
+				<section class="posts">
+					<article>
+						<header>
+							<h2>
+								<a href="education.html">Education</a>
+							</h2>
+						</header>
+						<div class="image fit">
+							<img src="images/uab.jpg" alt="university" />
+						</div>
+						<p>I will graduate from U.A.B. in May of 2026 with a major in Computer Science and a minor in Management. The University of Alabama at Birmingham offers a unique college experience, as it sits in the heart of Alabama's busiest metropolitan area.</p>
+						<ul class="actions special">
+							<li>
+								<a href="education.html" class="button">See More</a>
+							</li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>
+								<a href="work.html">Work History</a>
+							</h2>
+						</header>
+						<div class="image fit">
+							<img src="images/bham.jpg" alt="city" />
+						</div>
+						<p>I've had the pleasure of working with several companies, big and small, doing everything from service desk assistance to software procurement and hardware configuration.</p>
+						<ul class="actions special">
+							<li>
+								<a href="work.html" class="button">See More</a>
+							</li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>
+								<a href="projects.html">Projects</a>
+							</h2>
+						</header>
+						<div class="image fit">
+							<img src="images/drone.jpg" alt="agricultural drone" />
+						</div>
+						<p>Through academic, personal, and professional experiences, you can see how I've developed my skills both conceptually and practically. I can't think of anything more satisfying than putting my skills to use to create something meaningful.</p>
+						<ul class="actions special">
+							<li>
+								<a href="projects.html" class="button">See More</a>
+							</li>
+						</ul>
+					</article>
+					<article>
+						<header>
+							<h2>
+								<a href="courses.html">Course History</a>
+							</h2>
+						</header>
+						<div class="image fit">
+							<img src="images/room.jpg" alt="lecture hall" />
+						</div>
+						<p>The extensive course load at U.A.B. helps produce some of the most well-rounded graduates in the Southeast. One notable feature is how the university uses the city as a classroom, preparing students for the hustle and bustle of the corporate world.</p>
+						<ul class="actions special">
+							<li>
+								<a href="courses.html" class="button">See More</a>
+							</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+			<!-- Footer -->
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul>
+					<li>Stignani</li>
+					<li>
+						<a href="TatumStignaniResume.pdf" target="_blank">résumé</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Scripts -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var el = document.getElementById('featured-date');
+				if (!el) return;
+				var now = new Date();
+				var options = {
+					year: 'numeric',
+					month: 'long',
+					day: 'numeric'
+				};
+				el.textContent = now.toLocaleDateString(undefined, options);
+			});
+		</script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
